@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgba(111, 16, 27, 0.857);
+    border: double white;
+}
+
+#safirabb img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 10px;      
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;  
+    padding: 20px 0px;
+    
+}
+
+#contato {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqpirwRjLgtnmjJdswTDEbdmU2D-GWfxTopUgBM_6WUsD7ig3ezZco354Eyi_i9_BvVfQ&usqp=CAU");
+}
+
+#produtos img {
+   border-radius: 50%;
+   padding: 20px;
+   border: solid 1px black;
+   
+}
+
+#produtos {
+    color: rgb(255, 255, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+ul {
+    columns: 2;
+    list-style-type: none;
+}
+
+footer img {
+    border-radius: 50%;
+    width: 40px;
+    display: block;
+    margin: 0px auto;
+}
+
+footer {
+    background-color: white;
+    padding: 10px 0px;
+    border: double black;
+}
