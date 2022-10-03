@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqpirwRjLgtnmjJdswTDEbdmU2D-GWfxTopUgBM_6WUsD7ig3ezZco354Eyi_i9_BvVfQ&usqp=CAU");
+    width: 1240px;
+}
+
+header {
+    background-color: rgba(111, 16, 27, 0.857);
+    border: double white;
+    margin-bottom: 20px;
+}
+
+.header__conteudo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header__titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;  
+    padding: 20px 0px;
+}
+
+.header__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 10px; 
+} 
+
+.header__texto {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Produtos*/
+
+.main__lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__produto {
+    width: calc(25% - 15px);
+    border: 3px solid #FFFFFF;
+}
+
+.main__produto-titulo {
+    padding: 10px;
+    color: rgb(255, 255, 0);
+    text-align: center;
+}
+
+.main__produto-img {
+    border-radius: 50%;
+   padding: 10px;
+   border: solid 1px white;
+   display: block;
+   margin: 0px auto;
+}
+
+.main__produto-preço {
+    padding: 10px;
+    color: rgb(111, 16, 27);
+    background-color: yellow;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px auto;
+}
